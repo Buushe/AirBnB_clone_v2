@@ -317,7 +317,7 @@ class HBNBCommand(cmd.Cmd):
 
     def help_update(self):
         """ Help information for the update class """
-        print("Updates an object with new information")
+        print("Updates an object with a new information")
         print("Usage: update <className> <id> <attName> <attVal>\n")
 
 if __name__ == "__main__":
